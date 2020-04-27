@@ -1,0 +1,67 @@
+I-Découvre les bases du HTML5
+ 
+1-/ Découvrez le fonctionnement des sites web
+
+Le langage HTML a été inventé par un certain Tim Berners-Lee en 1991…, Il a aussi créé le World Wide Web Consortium (W3C) qui définit les nouvelles versions des langages liés au Web.
+C'est le navigateur web qui fera la traduction entre ces langages  informatiques (HTML, CSS) et ce que vous verrez s'afficher à l'écran.
+HTML (HyperText Markup Language):Son rôle est de gérer et organiser le contenu. il a fait son apparition dès 1991 lors du lancement du Web.
+ CSS (Cascading Style Sheets, aussi appelées Feuilles de style):  le rôle du CSS est de gérer l'apparence de la page web (agencement, positionnement, décoration, couleurs, taille du texte…). Ce langage est venu compléter le HTML en 1996.
+
+* Les navigateurs
+-Comprendre les différences entre navigateurs: 
+Le célèbre site caniuse.com tient à jour une liste des fonctionnalités prises en charge par les différentes versions de chaque navigateur.
+
+2-/ Créez votre première page web en HTML
+2.1-/Les balises et leurs attributs
+
+*Les balises
+
+On distingue deux types de balises : les balises en paires et les balises orphelines.
+
+Les balises en paires: <titre>Ceci est un titre</titre>
+Les balises orphelines: <image />
+
+*Structure de base d'une page HTML5
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre</title>
+    </head>
+
+    <body>
+    
+    </body>
+</html>
+
+a/ <!DOCTYPE html>
+La toute première ligne s'appelle le doctype. Elle est indispensable car c'est elle qui indique qu'il s'agit bien d'une page web HTML.
+
+b/ La balise</html>
+C'est la balise principale du code. Elle englobe tout le contenu d    e votre page. Comme vous pouvez le voir, la balise fermante</html>    se trouve tout à la fin du code !
+
+
+c/ L'en-tête<head>et le corps<body>
+
+L'en-tête<head>: cette section donne quelques informations générales sur la page comme son titre, l'encodage (pour la gestion des caractères spéciaux), etc. Cette section est généralement assez courte. Les informations que contient l'en-tête ne sont pas affichées sur la page, ce sont simplement des informations générales à destination de l'ordinateur. Elles sont cependant très importantes !
+
+Le corps<body>: c'est là que se trouve la partie principale de la page. Tout ce que nous écrirons ici sera affiché à l'écran. C'est à l'intérieur du corps que nous écrirons la majeure partie de notre code.
+
+d/ L'encodage (charset)
+<meta charset="utf-8" /> Cette méthode d'encodage(utf-8) permet d'afficher sans aucun problème pratiquement tous les symboles de toutes les langues de notre planète ! 
+
+e/ Le titre principal de la page
+<title>
+C'est le titre de votre page, probablement l'élément le plus important ! Toute page doit avoir un titre qui décrit ce qu'elle contient.
+Il est conseillé de garder le titre assez court (moins de 100 caractères en général).
+
+3/ Les commentaires
+3.1/ Insérer un commentaire
+<!-- Ceci est un commentaire -->
+
+
+
+
+
+
